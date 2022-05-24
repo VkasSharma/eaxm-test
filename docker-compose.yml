@@ -5,7 +5,7 @@ services:
     ports:
       - "80:3000"
   database:
-          image: vikaspramila/my-mysql:01
+    image: vikaspramila/my-mysql:01
     environment:
             - MYSQL_USER=password
             - MYSQL_PASSWORD=password
